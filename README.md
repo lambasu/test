@@ -40,3 +40,13 @@ The block-based model allows each component (legal address, disclaimers, social 
 
 **A previous bug report said the footer textarea was missing — is this a bug?**
 No. There is no single footer textarea in the product. Previous reports on this topic were closed as non-product issues. Footer customization is done block-by-block as described above.
+
+### X1050 Marketing Sync Checklist (CON-4)
+
+When coordinating the X1050 marketing sync, verify that each footer block is ready before launch:
+
+1. **Address**: Confirm the mailing address is current and localized for your audience.
+2. **Disclaimer**: Ensure the legal disclaimer matches the campaign requirements and regions targeted.
+3. **Social Links**: Add or update campaign-specific social profiles so the icons point to the correct destinations.
+
+Completing these checks keeps the marketing materials compliant and consistent across all outbound emails.
