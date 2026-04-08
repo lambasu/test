@@ -8,11 +8,13 @@ This guide walks you through the four steps you need to go from zero to a workin
 
 All API requests must include a valid bearer token in the `Authorization` header.
 
+For a full walkthrough of creating, storing, and managing your token, see the **[Token Setup guide](./token-setup.md)**. The essentials are summarised below.
+
 **Obtain your API key**
 
 1. Log in to the dashboard.
 2. Navigate to **Settings → API Keys**.
-3. Click **Create new key**, give it a name, and copy the value. Store it securely — it will not be shown again.
+3. Click **Create new key**, give it a name, select the required scopes, and copy the value. Store it securely — it will not be shown again.
 
 **Include the token in every request**
 
@@ -158,5 +160,5 @@ Look for `< HTTP/1.1 <STATUS_CODE>` in the output to confirm the server received
 ## Next Steps
 
 - Explore the full [API Reference](./api-reference.md) for available endpoints.
-- Review [Authentication](./authentication.md) for advanced topics such as token rotation and OAuth flows.
+- Review the [Token Setup guide](./token-setup.md) for advanced topics such as token rotation, scopes, and revocation.
 - See [Error Handling](./error-handling.md) for a complete list of error codes and retry strategies.

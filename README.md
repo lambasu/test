@@ -9,6 +9,8 @@ New to the API? Start with the **[Getting Started guide](docs/getting-started.md
 3. [Handle success and errors](docs/getting-started.md#step-3--handle-success-and-errors)
 4. [Debug common issues](docs/getting-started.md#step-4--debug-common-issues)
 
+Need help creating or managing your API token? See the **[Token Setup guide](docs/token-setup.md)**.
+
 ---
 
 ## Email Footer Customization
