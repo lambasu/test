@@ -14,13 +14,50 @@ All API requests must include a valid bearer token in the `Authorization` header
 2. Navigate to **Settings → API Keys**.
 3. Click **Create new key**, give it a name, and copy the value. Store it securely — it will not be shown again.
 
+**Token setup — configure the key as an environment variable**
+
+Never hard-code your API key in source files. Instead, set it as an environment variable and read it at runtime.
+
+*Linux / macOS (current shell session)*
+
+```bash
+export API_KEY="your_api_key_here"
+```
+
+To persist across sessions, add that line to your shell profile (`~/.bashrc`, `~/.zshrc`, etc.) and reload it:
+
+```bash
+echo 'export API_KEY="your_api_key_here"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+*Windows (Command Prompt)*
+
+```cmd
+set API_KEY=your_api_key_here
+```
+
+*Windows (PowerShell)*
+
+```powershell
+$env:API_KEY = "your_api_key_here"
+```
+
+*Using a `.env` file (recommended for local development)*
+
+Create a `.env` file in your project root:
+
+```
+API_KEY=your_api_key_here
+```
+
+Then load it with your framework's dotenv support (e.g. `dotenv` for Node.js, `python-dotenv` for Python). **Add `.env` to your `.gitignore`** so the key is never committed to version control.
+
 **Include the token in every request**
 
 ```http
 Authorization: Bearer <YOUR_API_KEY>
 ```
-
-> **Tip:** Store the key in an environment variable (e.g. `API_KEY`) and read it at runtime rather than hard-coding it.
 
 ---
 

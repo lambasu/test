@@ -4,7 +4,7 @@
 
 New to the API? Start with the **[Getting Started guide](docs/getting-started.md)** for a step-by-step happy path:
 
-1. [Set up auth](docs/getting-started.md#step-1--set-up-auth)
+1. [Set up auth & configure your token](docs/getting-started.md#step-1--set-up-auth)
 2. [Make the first request](docs/getting-started.md#step-2--make-the-first-request)
 3. [Handle success and errors](docs/getting-started.md#step-3--handle-success-and-errors)
 4. [Debug common issues](docs/getting-started.md#step-4--debug-common-issues)
